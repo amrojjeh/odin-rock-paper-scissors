@@ -28,6 +28,10 @@ function playRound(playerSelection, computerSelection) {
 	}
 }
 
+function updateScore() {
+
+}
+
 function play(playerSelection) {
 	console.log(playRound(playerSelection, getComputerChoice()));
 }

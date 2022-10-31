@@ -6,13 +6,30 @@
 
 body {
 	background-color: #1f1f1f;
+	max-height: 100vh;
+	font-family: roboto;
+}
+
+
+#display {
+	margin-top: 10vh;
+	max-height: 10vh;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#result {
+	margin-top: 1vh;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
 }
 
 #menu {
 	display: flex;
 	width: 80vw;
 	height: 80vh;
-	margin-top: 20vh;
 	margin-left: auto;
 	margin-right: auto;
 	align-items: center;
@@ -23,4 +40,13 @@ body {
 button {
 	flex: 1;
 	height: 20vh;
+	font-size: 2em;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
 }
